@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+:root[data-theme="light"] {
+    --pink: #C75E90;
+    --purple: #8E345F;
+    --white: black;
+    --gray: #D9D9D9;
+    --bg-body: #FBF6F8;
+    --bg-sections: #FFFFFF;
+    --bg-gradient: #F6DDE9;
+    --text: #232323;
+}
+
+:root[data-theme="dark"] {
+    --pink: #C75E90;
+    --purple: #8E345F;
+    --pink: black;
+    --white: black;
+    --gray: #D9D9D9;
+    --bg-body: #1D1D1D;
+    --bg-sections: #161616;
+    --bg-gradient: #290F1C;
+    --text: #FFFFFF;
+}
+
+/*mobile*/
+.nav--modile {
+    display: flex;
+}
+
+/*tablets*/
+@media (min-width: 640px) {
+    
+}
+
+/*usual screens without space on sides*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/*large screens with space on sides*/
+@media screen and (min-width: 1024px) {
+    
+
+}
+
+/*large screens with space on sides second version*/
+@media screen and (min-width: 1280px) {
+    
+
+}
